@@ -11,11 +11,12 @@ function addRect( x, y, size, fillStyle) {
 }
 
 function main() {
-    let x = 5;
+   
     let size = 10;
+    let x = 5;
     
     for ( let i = 0; i < 5; i++ ) {
-        addRect(5, x, 10, size, "green");
+        addRect(5, x,  size, "green");
         x = x + size;
     }
 
